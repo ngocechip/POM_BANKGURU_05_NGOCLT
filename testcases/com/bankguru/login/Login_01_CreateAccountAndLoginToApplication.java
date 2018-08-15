@@ -17,6 +17,7 @@ public class Login_01_CreateAccountAndLoginToApplication {
 
 	@BeforeClass
 	public void beforeClass() {
+		// First script
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
